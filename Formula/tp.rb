@@ -1,13 +1,13 @@
 class Tp < Formula
   desc "Directory teleportation with worktree-aware bookmarks"
   homepage "https://github.com/jeffdt/teleport"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/jeffdt/teleport/releases/download/v#{version}/tp-core-aarch64-apple-darwin"
-      sha256 "3040921da87dcde276d3e7049e12020d1444b1c70a9b8914f2db84d5256694a3"
+      sha256 "76a172128190504f670ea275613bcb6989d877fd75855da97eefdbb10cc7e50b"
     end
   end
 

@@ -1,13 +1,13 @@
 class Smux < Formula
   desc "Fast tmux session picker with pinned sessions and a window tree"
   homepage "https://github.com/jeffdt/smux"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/jeffdt/smux/releases/download/v#{version}/smux-aarch64-apple-darwin"
-      sha256 "26277de329681f569e94a5d95a57ce8ef5b396dc7c92a7eccc1704aaf95228b6"
+      sha256 "e93dcfdeed38799e25289f2872a55f94f9b5cf60cd377571244f97a7a83f612c"
     end
   end
 
@@ -18,7 +18,7 @@ class Smux < Formula
   def caveats
     <<~EOS
       Add a keybind to your ~/.tmux.conf, e.g.:
-        bind S display-popup -E -w 80% -h 80% "exec smux"
+        bind S display-popup -E -B -w 84 -h 60% "exec smux"
 
       Then reload tmux and press prefix + Shift+S.
     EOS

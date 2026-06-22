@@ -1,13 +1,13 @@
 class Smux < Formula
   desc "Fast tmux session picker with pinned sessions and a window tree"
   homepage "https://github.com/jeffdt/smux"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/jeffdt/smux/releases/download/v#{version}/smux-aarch64-apple-darwin"
-      sha256 "e93dcfdeed38799e25289f2872a55f94f9b5cf60cd377571244f97a7a83f612c"
+      sha256 "d8367b81c34c20fdd5b255df49a3267e3311b3fd8b31ec2fba623303ae3870c4"
     end
   end
 

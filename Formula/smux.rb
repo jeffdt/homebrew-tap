@@ -1,15 +1,12 @@
 class Smux < Formula
   desc "Fast tmux session picker with pinned sessions and a window tree"
   homepage "https://github.com/jeffdt/smux"
-  version "0.4.0"
+  url "https://github.com/jeffdt/smux/releases/download/v0.4.0/smux-aarch64-apple-darwin"
+  sha256 "a31f44599a607f45b8d18f05112fa093436d1ace8a1f3b0fcf08fdd82eb20ea6"
   license "MIT"
 
-  on_macos do
-    if Hardware::CPU.arm?
-      url "https://github.com/jeffdt/smux/releases/download/v#{version}/smux-aarch64-apple-darwin"
-      sha256 "a31f44599a607f45b8d18f05112fa093436d1ace8a1f3b0fcf08fdd82eb20ea6"
-    end
-  end
+  depends_on arch: :arm64
+  depends_on :macos
 
   def install
     bin.install "smux-aarch64-apple-darwin" => "smux"

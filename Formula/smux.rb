@@ -1,8 +1,8 @@
 class Smux < Formula
   desc "Fast tmux session picker with pinned sessions and a window tree"
   homepage "https://github.com/jeffdt/smux"
-  url "https://github.com/jeffdt/smux/releases/download/v0.6.4/smux-aarch64-apple-darwin"
-  sha256 "7f2b41439786495e1b09e7a33170f2bbc7262acd96ff690ae09a107c598babde"
+  url "https://github.com/jeffdt/smux/releases/download/v0.7.0/smux-aarch64-apple-darwin"
+  sha256 "c1f4f799c15117371ac1a43fb5338bf5dbd067f0fc2474f3026931d7f283f9c7"
   license "MIT"
 
   depends_on arch: :arm64

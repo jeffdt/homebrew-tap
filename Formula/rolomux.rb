@@ -1,8 +1,8 @@
 class Rolomux < Formula
   desc "Fast tmux session picker with pinned sessions and a window tree"
   homepage "https://github.com/jeffdt/rolomux"
-  url "https://github.com/jeffdt/rolomux/releases/download/v0.32.0/rolomux-aarch64-apple-darwin"
-  sha256 "b6fd8bfd62a95adfbcf21da26f6e2a38d97acd4458d457628de51a2e4e9a6e24"
+  url "https://github.com/jeffdt/rolomux/releases/download/v0.33.0/rolomux-aarch64-apple-darwin"
+  sha256 "86ecf8b3ef7ffd13e8bb23f3e001f2403d87fab543ec8f14beb5520708df47ec"
   license "MIT"
 
   depends_on arch: :arm64

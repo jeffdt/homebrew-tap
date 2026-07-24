@@ -1,8 +1,8 @@
 class Boomerang < Formula
   desc "Tmux-popup TUI for browsing and managing GitHub issues"
   homepage "https://github.com/jeffdt/boomerang"
-  url "https://github.com/jeffdt/boomerang/releases/download/v0.3.15/boomerang-aarch64-apple-darwin"
-  sha256 "a16a834d71638ace4191ccadd3bbcc271c17721a44f9ff45ad806fcef0820c67"
+  url "https://github.com/jeffdt/boomerang/releases/download/v0.3.16/boomerang-aarch64-apple-darwin"
+  sha256 "131bd3edaf035394ad70b4bfb417a95c55bc9158b479db3a3c06653a9a23a649"
   license "MIT"
 
   depends_on arch: :arm64

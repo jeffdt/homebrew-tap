@@ -1,8 +1,8 @@
 class Backlog < Formula
   desc "Fuzzy game-library search across Steam, Epic, GOG, and Amazon"
   homepage "https://github.com/jeffdt/backlog"
-  url "https://github.com/jeffdt/backlog/releases/download/v0.1.0/backlog-aarch64-apple-darwin"
-  sha256 "767310c747695673052d34189f6cb832905e3a728156cd894d8311f1a03b25d8"
+  url "https://github.com/jeffdt/backlog/releases/download/v0.2.0/backlog-aarch64-apple-darwin"
+  sha256 "87655200fad1e7a15074f9894a324d5e73b09074684be4f460b3625140e9b7f0"
   license "MIT"
 
   depends_on arch: :arm64

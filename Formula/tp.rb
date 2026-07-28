@@ -1,8 +1,8 @@
 class Tp < Formula
   desc "Directory teleportation with worktree-aware bookmarks"
   homepage "https://github.com/jeffdt/teleport"
-  url "https://github.com/jeffdt/teleport/releases/download/v0.3.0/tp-core-aarch64-apple-darwin"
-  sha256 "355e3d81bf50b900c8df6c67b8b45a660cf8f0df1a0bc375b52cec49ea4ce64e"
+  url "https://github.com/jeffdt/teleport/releases/download/v0.4.0/tp-core-aarch64-apple-darwin"
+  sha256 "3ace1aa627dfb98e4b427ce4542b9bd8272f3479ceb45c730b1aec77ac6fa76b"
   license "MIT"
 
   depends_on arch: :arm64

@@ -7,6 +7,7 @@ class Tp < Formula
 
   depends_on arch: :arm64
   depends_on :macos
+  depends_on "fzf"
 
   def install
     bin.install "tp-core-aarch64-apple-darwin" => "tp-core"

@@ -6,8 +6,8 @@ class Tp < Formula
   license "MIT"
 
   depends_on arch: :arm64
-  depends_on :macos
   depends_on "fzf"
+  depends_on :macos
 
   def install
     bin.install "tp-core-aarch64-apple-darwin" => "tp-core"

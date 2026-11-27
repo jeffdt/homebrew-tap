@@ -15,10 +15,11 @@ class Bouncer < Formula
   def caveats
     <<~EOS
       Fetch your libraries before searching:
-        bouncer setup   # Steam API key + profile (optional, for Steam)
+        bouncer setup   # Steam API key + profile, IsThereAnyDeal key (all optional)
         bouncer sync    # pull from configured sources
 
       Then run `bouncer` for the interactive picker, or `bouncer <query>`.
+      `bouncer price <game>` checks prices (needs the IsThereAnyDeal key).
     EOS
   end
 

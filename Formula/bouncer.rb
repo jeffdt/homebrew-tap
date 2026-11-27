@@ -1,8 +1,8 @@
 class Bouncer < Formula
   desc "Game library wrangler that keeps your shopping sprees in check"
   homepage "https://github.com/jeffdt/bouncer"
-  url "https://github.com/jeffdt/bouncer/releases/download/v0.5.0/bouncer-aarch64-apple-darwin"
-  sha256 "653a4ad05b219dd50f64ac6b72c90fde3b26ffa1e6b07ed52c02ab417c46dc7c"
+  url "https://github.com/jeffdt/bouncer/releases/download/v0.6.0/bouncer-aarch64-apple-darwin"
+  sha256 "bc88da5aa29432d47429901e133df7934e06f4c425311793c5a28a8d8fee75c3"
   license "MIT"
 
   depends_on arch: :arm64

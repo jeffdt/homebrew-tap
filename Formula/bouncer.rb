@@ -20,6 +20,8 @@ class Bouncer < Formula
 
       Then run `bouncer` for the interactive picker, or `bouncer <query>`.
       `bouncer price <game>` checks prices (needs the IsThereAnyDeal key).
+      `bouncer cart` judges your Steam cart against your library and price
+      history; see `bouncer cart --help` for the token it needs.
     EOS
   end
 
